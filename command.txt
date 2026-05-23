@@ -1,0 +1,39 @@
+
+1. The "Daily Loop" (Saving & Uploading)
+
+  git status – See what files you've changed (Red = changed, Green = staged).
+  git add . – Stage all changes for the next commit.
+  git commit -m "message" – Save a snapshot of your changes locally.
+  git push – Upload your local commits to GitHub.
+
+2. Starting a Project
+
+  git init – Turn a local folder into a Git repository.
+  git clone <url> – Copy an existing GitHub repository to your computer.
+  git remote add origin <url> – Connect your local folder to a new GitHub repo.
+
+3. Working with Others (or from another PC) 
+  git pull – Download the latest changes from GitHub to your computer (do this before you start working).
+  git fetch – Check if there are updates on GitHub without downloading them yet.
+
+4. Branching (For adding new features safely)
+
+  git branch – List all your branches.
+  git checkout -b <name> – Create a new branch and switch to it immediately.
+  git checkout <name> – Switch back to an existing branch (e.g., git checkout main).
+  git merge <name> – Combine changes from another branch into your current one.
+
+5. Fixing Mistakes
+
+  git restore <file> – Undo changes to a file that you haven't committed yet.
+  git reset --hard HEAD~1 – Delete your last commit entirely (be careful!).
+  git log --oneline – See a simplified list of all your past commits.
+
+Quick Cheat Sheet
+
+  Check what's happening  -> git status
+  Save everything -> git add . + git commit -m "..." 
+  Send to GitHub -> git push 
+  Get latest from GitHub -> git pull 
+
+
